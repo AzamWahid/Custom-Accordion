@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+i {
+    cursor: pointer;
+}
+
+.signBorder {
+    border: 1px solid #edbd0c;
+}
+
+
+
+.showMinusSign {
+    display: flex !important;
+}
+.hideMinusSign {
+    display: none !important;
+}
+.showPlusSign {
+    display: flex !important;
+}
+.hidePlusSign {
+    display: none !important;
+}
+
+
+.detail1 {
+    display: none;
+}
+
+.showDetail {
+    display: flex;
+}
