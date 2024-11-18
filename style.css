@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+.acordionCont {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
@@ -22,15 +30,10 @@ i {
 
 
 
-.showMinusSign {
-    display: flex !important;
-}
 .hideMinusSign {
     display: none !important;
 }
-.showPlusSign {
-    display: flex !important;
-}
+
 .hidePlusSign {
     display: none !important;
 }
