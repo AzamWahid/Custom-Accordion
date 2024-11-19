@@ -6,18 +6,46 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(220, 229, 235);
+}
+
+h1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+    font-style: normal;
+    color: #edbd0c;
+}
+
 .acordionCont {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    gap: 20px;
 }
 
-h1 {
-    font-family: "Great Vibes", cursive;
-    font-weight: 400;
-    font-style: normal;
+.acordionItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 i {
@@ -29,20 +57,16 @@ i {
 }
 
 
-
-.hideMinusSign {
-    display: none !important;
-}
-
-.hidePlusSign {
-    display: none !important;
-}
-
-
-.detail1 {
+.detail {
     display: none;
+    flex-direction: column;
+}
+
+.line {
+    border: 1px solid #ccc;
+    margin: 0px 0px 20px 0;
 }
 
 .showDetail {
-    display: flex;
+    display: flex !important;
 }
