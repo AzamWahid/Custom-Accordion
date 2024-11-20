@@ -32,17 +32,19 @@ accordData.forEach(function (data) {
     document.querySelector('.acordionCont').innerHTML += `
                         <div class="acordionItem">
                             <div class="head">
-                                ${data.quest}
-                                <i class="fa-solid fa-plus signBorder" id="${data.btnID}" style="color: #edbd0c;"
-                                onclick="showHideDetail(this,'#${data.id}')"></i>
+                                <div>
+                                    ${data.quest}
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-plus signBorder" id="${data.btnID}" style="color: #edbd0c;"
+                                    onclick="showHideDetail(this,'#${data.id}')"></i>
+                                </div>
                             </div>
                             <div class="detail" id="${data.id}">
                                 <div class="line"></div>
                                   <div>  ${data.answer}</div>
                             </div>
-                        </div>
-                        `
-
+                        </div>`
 })
 
 

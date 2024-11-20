@@ -15,6 +15,7 @@ h1 {
     font-weight: 800;
     font-style: normal;
     color: #edbd0c;
+    font-size: 3rem;
 }
 
 .acordionCont {
@@ -26,6 +27,8 @@ h1 {
     width: 60%;
     margin: 0 auto;
     gap: 20px;
+
+    font-family: "Roboto", serif;
 }
 
 .acordionItem {
@@ -37,8 +40,12 @@ h1 {
     gap: 20px;
     background-color: white;
     border-radius: 5px;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px;
+
+    box-shadow: 7px 6px 26px 4px rgba(183, 183, 183, 0.75);
+    -webkit-box-shadow: 7px 6px 26px 4px rgba(183, 183, 183, 0.75);
+    -moz-box-shadow: 7px 6px 26px 4px rgba(183, 183, 183, 0.75);
 }
 
 
@@ -69,4 +76,13 @@ i {
 
 .showDetail {
     display: flex !important;
+}
+
+/* media queries */
+
+@media (max-width: 767.98px) {
+
+    .acordionCont {
+        width: 95%;
+    }
 }
